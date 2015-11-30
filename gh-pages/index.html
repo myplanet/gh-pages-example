@@ -14,8 +14,10 @@
     <header>
         <div class="content-wrap">
             <a href="http://myplanet.com" class="logo" title="Myplanet">Myplanet</a>
-            <h1><a href="/"><%= title %></a></h1>
-            <h2><% if (subtitle) { print(subtitle); } %></h2>
+            <h1><a href="."><!-- build:title -->Title<!-- endbuild --></a></h1>
+            <!-- build:subtitle -->
+            <h2>Optional Subtitle</h2>
+            <!-- endbuild -->
         </div>
     </header>
     <nav>
